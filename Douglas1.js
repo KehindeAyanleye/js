@@ -20,7 +20,16 @@ myObject = maker("Jack B.Nimble",
 	'Jail', 'A', 3);
 
 //Object Literals with a format field
-var myObjects = {name: "JackB. Nimble",
-'goto':'Jail', grade: 'A', format:
-{type:'rect', width:1920, height:1080,
-interlace: false, framerate:24}};
+var myObjects = {
+	name: "JackB. Nimble",
+	'goto':'Jail',
+	grade: 'A',
+	format:
+	{
+		type:'rect',
+		width:1920,
+		height:1080,
+		interlace: false,
+		framerate:24
+	}
+};
