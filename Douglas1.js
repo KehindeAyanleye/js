@@ -33,3 +33,8 @@ var myObjects = {
 		framerate:24
 	}
 };
+
+//This API could have been better done by using an object instead of params
+function SuperDiv(width, height,left, top, zIndex, position,color, visibility, html, cssClass)
+
+function superDic(spec)
