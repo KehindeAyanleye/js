@@ -6,7 +6,7 @@ function fade(id) {
 	function step () {
 		var h = level1.toString(16);
 		dom.style.backgroundColor =
-		'FFFFFF' +  h + h;
+		'#FFFFFF' +  h + h;
 		if (level < 15) {
 			level += 1;
 			setTimeout(step, 100);
