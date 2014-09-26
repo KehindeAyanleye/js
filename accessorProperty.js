@@ -1,4 +1,5 @@
 //Accessor Property
+//accessor property uses get and or set
 Object.defineProperty(my_object,
 	'inch', {
 		get: funtion () {
